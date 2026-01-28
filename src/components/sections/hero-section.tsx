@@ -24,26 +24,22 @@ const HeroSection = () => {
                       height={435}
                       className="w-56 h-auto mx-auto drop-shadow-2xl relative z-10"
                     />
-              <div className="absolute inset-0 bg-gradient-radial from-pink-500/20 to-transparent blur-3xl -z-10"></div>
+              <div className="absolute inset-0 bg-gradient-radial from-yellow-500/10 to-transparent blur-3xl -z-10"></div>
             </div>
           </div>
 
-          <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
-            <Heart className="w-2.5 h-2.5 text-pink-400 absolute -top-0.5 left-3 animate-pulse fill-pink-400" />
-            Unlock{' '}
-              <span className="inline-flex items-center gap-1" style={{ color: '#ff4d6d' }}>
-                Wingstop Rewards
-                <Gift className="w-4 h-4 inline-block" style={{ color: '#ff4d6d' }} />
-            </span>
-            <Heart className="w-2.5 h-2.5 text-pink-300 absolute -bottom-0.5 right-3 animate-pulse fill-pink-300" />
-          </h1>
+            <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
+              Unlock{' '}
+                <span className="inline-flex items-center gap-1" style={{ color: '#E4B363' }}>
+                  Wingstop Rewards
+                  <Gift className="w-4 h-4 inline-block" style={{ color: '#E4B363' }} />
+              </span>
+            </h1>
 
-        <p className="text-xs md:text-sm text-foreground/95 mb-2 font-medium text-shadow-strong px-2 relative">
-          <Heart className="w-2.5 h-2.5 text-pink-400 inline-block mr-1 animate-pulse fill-pink-400" />
-          Here's how to claim your free{' '}
-            <span className="font-bold !w-[148px] !h-[17px]" style={{ color: '#ff4d6d' }}>$500 Valentine's gift card</span>
-          <Heart className="w-2.5 h-2.5 text-pink-400 inline-block ml-1 animate-pulse fill-pink-400" />
-        </p>
+          <p className="text-xs md:text-sm text-foreground/95 mb-2 font-medium text-shadow-strong px-2 relative">
+            Here's how to claim your free{' '}
+              <span className="font-bold !w-[148px] !h-[17px]" style={{ color: '#E4B363' }}>$500 Wingstop gift card</span>
+          </p>
       </div>
     </div>
   );
