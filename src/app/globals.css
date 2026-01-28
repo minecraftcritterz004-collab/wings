@@ -19,16 +19,16 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-background: #00593e;
+  --color-background: #1a4d3a;
   --color-foreground: #FFFFFF;
 
-  --color-card: #00593e;
+  --color-card: #1a4d3a;
   --color-card-foreground: #FFFFFF;
 
-  --color-popover: #00593e;
+  --color-popover: #1a4d3a;
   --color-popover-foreground: #FFFFFF;
 
-  --color-primary: #00593e;
+  --color-primary: #1a4d3a;
   --color-primary-foreground: #FFFFFF;
 
   --color-secondary: #E4B363;
@@ -37,23 +37,23 @@
   --color-muted: rgba(255, 255, 255, 0.8);
   --color-muted-foreground: #FFFFFF;
 
-  --color-accent: #E4B363;
+  --color-accent: #FFD700;
   --color-accent-foreground: #FFFFFF;
 
   --color-destructive: #ef4444;
   --color-destructive-foreground: #fafafa;
 
-  --color-border: rgba(228, 179, 99, 0.2);
+  --color-border: rgb(46, 107, 83);
   --color-input: #E4B363;
-  --color-ring: #E4B363;
+  --color-ring: #FFD700;
 
-  --color-chart-1: #e74c3c;
-  --color-chart-2: #c0392b;
-  --color-chart-3: #ff4d6d;
+  --color-chart-1: #e67e22;
+  --color-chart-2: #2d8659;
+  --color-chart-3: #1e3a5f;
   --color-chart-4: #f1c40f;
-  --color-chart-5: #e67e22;
+  --color-chart-5: #e74c3c;
 
-  --color-sidebar: #4a0404;
+  --color-sidebar: #1a4d3a;
   --color-sidebar-foreground: #FFFFFF;
   --color-sidebar-primary: #E4B363;
   --color-sidebar-primary-foreground: #FFFFFF;

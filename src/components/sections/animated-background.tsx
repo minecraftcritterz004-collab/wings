@@ -1,18 +1,18 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { Snowflake, Star, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 
 const AnimatedBackground = () => {
   return (
     <>
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
-        <Heart className="absolute top-20 left-10 w-12 h-12 text-pink-400 animate-rotate-slow fill-pink-400/20" />
-        <Heart className="absolute top-40 left-20 w-8 h-8 text-pink-300 animate-float-spin fill-pink-300/20" />
-        <Heart className="absolute top-32 right-16 w-10 h-10 text-pink-400 animate-twinkle fill-pink-400/20" />
-        <Heart className="absolute bottom-40 left-16 w-10 h-10 text-pink-300 animate-rotate-reverse fill-pink-300/20" />
-        <Heart className="absolute bottom-60 right-20 w-12 h-12 text-pink-400 animate-float-gentle fill-pink-400/20" />
-        <Heart className="absolute top-1/2 left-8 w-8 h-8 text-pink-300 animate-rotate-slow fill-pink-300/20" />
-        <Heart className="absolute top-1/3 right-12 w-8 h-8 text-pink-400 animate-float-spin fill-pink-400/20" />
+        <Snowflake className="absolute top-20 left-10 w-12 h-12 text-accent animate-rotate-slow" />
+        <Star className="absolute top-40 left-20 w-8 h-8 text-accent animate-float-spin" />
+        <Sparkles className="absolute top-32 right-16 w-10 h-10 text-accent animate-twinkle" />
+        <Snowflake className="absolute bottom-40 left-16 w-10 h-10 text-accent animate-rotate-reverse" />
+        <Star className="absolute bottom-60 right-20 w-12 h-12 text-accent animate-float-gentle" />
+        <Snowflake className="absolute top-1/2 left-8 w-8 h-8 text-accent animate-rotate-slow" />
+        <Sparkles className="absolute top-1/3 right-12 w-8 h-8 text-accent animate-float-spin" />
       </div>
 
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-15">
