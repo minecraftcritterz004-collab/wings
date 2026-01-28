@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 import path from "node:path";
 
-// Loader path from orchids-visual-edits - use direct resolve to get the actual file
-const loaderPath = require.resolve('orchids-visual-edits/loader.js');
+const LOADER = path.resolve(__dirname, 'src/visual-edits/component-tagger-loader.js');
 
 const nextConfig: NextConfig = {
+  output: 'export',  // Required for static export
   images: {
+    unoptimized: true,  // Required for images in static export
     remotePatterns: [
       {
         protocol: 'https',
@@ -26,11 +27,10 @@ const nextConfig: NextConfig = {
   turbopack: {
     rules: {
       "*.{jsx,tsx}": {
-        loaders: [loaderPath]
+        loaders: [LOADER]
       }
     }
-  },
-  allowedDevOrigins: ['*.orchids.page'],
-} as NextConfig;
+  }
+};
 
 export default nextConfig;
