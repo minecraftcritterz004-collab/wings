@@ -15,7 +15,7 @@ const steps = [
 },
 {
   icon: Snowflake,
-  text: 'Complete 3–5 partner offers'
+  text: 'Complete 4-5 partner offers'
 },
 {
   icon: Snowflake,
