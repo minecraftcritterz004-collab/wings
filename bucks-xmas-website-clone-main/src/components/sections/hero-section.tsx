@@ -46,13 +46,13 @@ const HeroSection = () => {
           <Gift className="w-4 h-4 inline-block !text-[#db1311]" />
         </span>
         <br />
-        for Free
+        for you
         <Snowflake className="w-2.5 h-2.5 text-white/60 absolute -bottom-0.5 right-3 animate-pulse" />
       </h1>
 
       <p className="text-xs md:text-sm text-foreground/95 mb-2 font-medium text-shadow-strong px-2 relative">
         <Sparkles className="w-2.5 h-2.5 text-accent inline-block mr-1 animate-pulse" />
-        Here's how to claim your free{' '}
+          Here's how to claim your{' '}
         <span className="font-bold !w-[148px] !h-[17px]" style={{ color: 'hsl(40 60% 65%)' }}>$100 holiday gift card</span>
         <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
       </p>

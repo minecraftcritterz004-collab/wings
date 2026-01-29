@@ -40,7 +40,7 @@ const HeroSection = () => {
 
         <p className="text-xs md:text-sm text-foreground/95 mb-2 font-medium text-shadow-strong px-2 relative">
           <Sparkles className="w-2.5 h-2.5 text-accent inline-block mr-1 animate-pulse" />
-          Here's how to claim your free{' '}
+          Here's how to claim your{' '}
             <span className="font-bold !w-[148px] !h-[17px]" style={{ color: 'hsl(150, 92%, 50%)' }}>$500 Valentine&apos;s Gift Card</span>
           <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
         </p>
